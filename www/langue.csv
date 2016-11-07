@@ -1,0 +1,381 @@
+id;FR;EN
+app;UrgencesAviR;BiRdEmergency
+desc1;Nous avons développé cet outil pour faciliter la récolte rapide d'information sur ;We developped this tool to facilitate the rapid gathering of information on 
+desc2;l'abondance des oiseaux migrateurs,;migratory bird abundance,
+desc3;leurs colonies de nidification,;breeding colonies,
+desc4;les espèces en péril,;species at risk,
+desc5;les habitats essentiels,;critical habitats,
+desc6;les terres fédérales;federal lands
+desc7;et;and
+desc8;les milieux humides;wetlands
+desc9;dans des zones où des urgences environnementales pourraient poser un risque. La majorité des bases de données du Service canadien de la faune concernant les oiseaux aquatiques sont incluses dans cet outil.;in areas where environmental emergencies may be a threat. It includes most databases concerning birds available at the Canadian Wildlife Service.
+hauthors;Auteurs;Authors
+author1;Francois Rousseu, SCF, ;Francois Rousseu, CWS, 
+em1;francois.rousseu@canada.ca;francois.rousseu@canada.ca
+author2;Francois Bolduc, SCF, ;Francois Bolduc, CWS, 
+em2;francois.bolduc@canada.ca;francois.bolduc@canada.ca
+hcontacts;Contacts;Contacts
+contact1;Francois Bolduc, SCF, ;Francois Bolduc, CWS, 
+contact2;francois.bolduc@canada.ca;francois.bolduc@canada.ca
+hlink;Liens;Links
+link1;Réseau d'aires protégées d'Environnement Canada;Environment Canada's Network of Protected Areas
+link2;GeoAviRWeb;GeoAviRWeb
+link3;Outil provincial: SGBio;Provincial tool: SGBio
+link4;Recherche de bien ou bâtiment fédéraux par identificateur unique (RBIF);Search for Federal Property or Building by ID (DRFP)
+link5;Lois et règlements: Environnement et Changement climatique Canada;Acts & Regulations: Environment and Climate Change Canada
+link6;Registre public des espèces en péril;Species at Risk Public Registry
+husage;Utilisation;Usage
+usage1;Pour obtenir des données concernant une région d'intérêt, l'utilisateur délimite une zone à l'aide de la ;To obtain data concerning an area of interest, the user traces the area using the 
+usage2;Carte interactive.;Interactive Map.
+usage3;Les données concernant la région sont ensuite résumées dans les onglets suivants et peuvent être explorées et sauvegardées en format csv ou shapefile. L'utilisateur peut également produire un rapport résumant l'information disponible avec l'onglet ;The data for the area is then summarized in the remaining panels and can be explored and saved as csv or shapefiles. The user can also produce a report summarizing the information available with the 
+usage4;Créer un rapport.;Create Report
+usage5;;panel.
+hcontent;Contenu;Content
+content;Introduction;Introduction
+content1;Carte interactive;Interactive Map
+content11;: sélectionnez une région d'intérêt et les différents paramètres de la requête.;: select the area of interest and the different parameters of the query.
+content2;Abondance d'oiseaux;Bird Abundance
+content22;: résume les données disponibles d'abondances d'oiseaux pour la région sélectionnée en fonction des données du SCF et de ÉPOQ;: summarize available bird abundance data for the selected area according to CWS and EPOQ data
+content3;Télémétrie/Densité;Telemetry/Density
+content33;: données d'utilisation de différentes régions pour certaines espèces ayant fait l'objet d'un suivi télémétrique;: maps of bird usage in the area according to telemetry data for selected species.
+content4;Calendrier saisonnier;Seasonal Calendar
+content44;: calendrier saisonnier régional basé sur les occurrences dans les données ÉPOQ;: area-specific calendar of bird abundance throughout the year according to EPOQ data.
+content5;Données;Data
+content55;: explorez les données brutes pour les entités sélectionnées;: explore the raw data for the area using all databases.
+content6;Créer un rapport;Create Report
+content66;: créez un rapport détaillé à partir de la sélection courante;: create a report from the current selection and choose elements to include in the report.
+hwarning;Avertissement;Warning
+warning1;1- Cet outil fournit seulement de l'information lorsque celle-ci est disponible. ;1- This tool only provides information when available.
+warning11;L'absence d'information sur la présence d'oiseaux ou d'espèces en péril dans une région donnée ne devrait pas être interprétée comme étant un signe de leur absence dans la région sélectionnée.;The absence of information on bird or species at risk presence in a given area should not be interpreted as a sign of their absence.
+warning111;Interprétez les résultats avec prudence lorsqu'aucune ou peu d'information est disponible dans une région donnée et toujours consulter les experts locaux.;Use caution when few or no observations are available and always consult with local experts.
+warning2;2- Lors de la sélection d'une région d'intérêt, l'utilisateur doit garder en tête que;2- When selecting an area, the user has to keep in mind that 
+warning22;la localisation des observations est souvent approximative.;the location of each observation is often imprecise.
+warning222;Ceci est particulièrement le cas avec les données ÉPOQ qui sont souvent rapportées pour une localité ou une municipalité donnée. Par conséquent, lors de la sélection d'une région, l'utilisateur devrait également inclure les régions environnantes, particulièrement les centres-villes, afin de ne pas exclure les observations avec des localisations imprécises. Par exemple, un utilisateur devrait inclure les régions côtières sur la terre ferme même si la région d'intérêt est entièrement située dans l'eau.;This is especially true for ÉPOQ observations which are often reduced to the center of municipalities. Consequently, when selecting an area of interest, the user should also include nearby regions, especially city centers, so as not to exclude observations with imprecise geographic coordinates. For example, the user should include nearby municipalities even if the area of interest only lies in water.
+intab1;Instructions;Instructions
+intab2;Marche à suivre du PIU;Emergency Protocol
+intab3;"National Wildlife Emergency Response 
+Contingency Plan";"National Wildlife Emergency Response 
+Contingency Plan"
+intab4;Données;Databases description
+intab5;Politique nationale pour les interventions d'urgence ayant trait aux espèces sauvages;National Policy on Wildlife Emergency Response
+intab6;Grille de décision;Decision grid
+hcontrol;Paramètres;Parameters
+cmonth;Sélectionnez un ou des mois;Choose months
+cyear;Année minimale;Minimal year
+cbase;Sources de données;Data sources
+cmin;Nb d'individus minimal;Minimum no. of individuals
+cmini;Les mentions d\'oiseaux rapportant un nombre inférieur à cette valeur seront ignorées.;Record with a number of birds below this value will be ignored
+cbuffer;Rayon pour la zone servant au calendrier régional (km);Buffer size for the EPOQ calendar (km)
+cbufferi;Choisir un rayon autour de la zone d\'intérêt afin de produire un calendrier EPOQ basé sur les feuillets contenus dans cette zone.;Choose a radius to determine a zone around the selected area to build the EPOQ calendar.
+uclust;Aggréger les mentions;Use clusters for bird locations
+uclusti;Utiliser des aggrégats afin de mieux visualiser les observations superposées (e.g. en raison de la superposition possible des données ÉPOQ). Zoomez et cliquez sur un point pour voir l\'information de la mention.;Use clusters to facilitate the visualization of overlapping bird observations records (e.g. overlapping records in EPOQ for a given locality). Zoom and click on a dot to obtain information on the record.
+enable;Permettre le traçage d'une région;Enable area selection
+enablei;Cocher cette case afin de sélectionner une région sur la carte.;Check this box to allow the drawing of a polygon on the map.
+lati;Entrez des coordonnées en format degré décimal (e.g. 45.51) afin d\'afficher une position géographique. Les deux boîtes doivent contenir des valeurs pouvant être interprétées comme des coordonnées géographiques afin d\'afficher la localisation. Pour effacer le marqueur de la localisation, effacer le contenu d\'une des deux boîtes.;Enter coordinates in the decimal degree format (e.g. 45.51) to show a specific location. Both boxes need to have values that can be interprtated as geographic coordinates to be able to display a location. To erase the location marker, clear the content of one of the two boxes.
+loni;Entrez des coordonnées en format degré décimal (e.g. 45.51) afin d\'afficher une position géographique. Les deux boîtes doivent contenir des valeurs pouvant être interprétées comme des coordonnées géographiques afin d\'afficher la localisation. Pour effacer le marqueur de la localisation, effacer le contenu d\'une des deux boîtes.;Enter coordinates in the decimal degree format (e.g. 45.51) to show a specific location. Both boxes need to have values that can be interprtated as geographic coordinates to be able to display a location. To erase the location marker, clear the content of one of the two boxes.
+butt1;Sélectionner;Select
+butt1i;"Ce bouton termine la sélection d\'une région d\'intérêt. Afin de délimiter une région, la case \"" Traçage de polygone \"" doit être cochée. Lorsque ce bouton est activé, cette case est décochée. Ce bouton peut également être utilisé lorsque des nouveaux paramètres sont choisis dans le panneau de droite. Afin de voir les entités sélectionnées, utiliser le bouton de droite \""Afficher la sélection\"".";"This button ends the selection of an area of interest. In order to be able to select an area, the box \""Enable area selection\"" has to be checked. When this button is pressed, this box is unchecked. The button can also be used when new parameters are chosen in the left panel. To see selected elements within the area, press the \""Show selection\"" button on the right."
+butt2;Cartographier;Map
+butt2i;Ce bouton affiche la sélection courante.;This button shows the current selection on the map.
+butt3;Supprimer;Delete
+butt3i;"Ce bouton efface la sélection courante et les éléments affichés sur la carte. Lorsque ce bouton est activé, la case \"" Traçage de polygone \"" est automatiquement cochée.";"This button clears the current selection and selected elements shown on the map. When this button is pressed, the \""Enable area selection\"" box is automatically checked."
+butt4;Effacer;Clear
+butt4i;Ce bouton efface les éléments affichés sur la carte, mais non la sélection courante.;This button clears the map, but not the current selection.
+legi;"Cette légende permet de sélectionner les éléments à afficher sur la carte. Les éléments doivent préalablement avoir été affichés sur la carte à l\'aide du bouton \"" Afficher \"".";"This legend allows the selection of elements visible on the map. A current selection is necessary and elements have to have been showed on the map with the \""Show selection\"" button. The layer EPOQ locations and municipalities are not part of the selection processed and are available only for reference and are independent of the selection process."
+leg1;Région sélectionnée;Selected area
+leg2;Zone du calendrier;EPOQ buffer
+leg3;Observations d'oiseaux;Bird observations
+leg4;Colonies d'oiseaux;Breeding colonies
+leg5;Oiseaux en péril;Birds at risk
+leg6;Espèces en péril;Species at risk
+leg7;Habitats essentiels;Critical habitats
+leg8;Terres fédérales;Federal lands
+leg9;Milieux humides;Wetlands
+leg10;Données sélectionnées;Selected data
+leg11;Localisations ÉPOQ;EPOQ locations
+leg12;Municipalités;Municipalities
+legbutt;Sélectionner rien / tout;Select none / all
+legbutti;Déselectionnez ou sélectionnez toutes les couches à afficher. Les couches de localisations ÉPOQ et des municipalités doivent être activées individuellement afin de réduire les délais d\'affichage.;Unselect or select all layers to be displayed. EPOQ and Municipality location layers must be individually selected to minimize delays.
+hba;Explorer les espèces et les mentions les plus abondantes;Explore most abundant species and observations
+tg;Type de graphique;Type of graph
+tgi;Choisir le type de graphique;Choose the type of graphic
+tg1;Utiliser les ;Use first 
+tg11;plus grandes observations;largest observations
+tg2;Utiliser toutes les observations avec un nb minimal d'individus de;Use all observations with a minimum no. of 
+tg22;;individuals
+gb;Grouper par;Group by
+gb1;Espèces;Species
+gb2;Groupes;Groups
+sobs;Montrer toutes les observations;Show all observations
+sobsi;Montrer toutes les observations et leur nombre d'oiseaux. Les observations sont espacées aléatoirement pour faciliter la visualization.;Show all observations and their numbers. Observations are jittered to facilitate vizualisation.
+sper;Montrer les pourcentages;Show percentages
+speri;Montrer les pourcentages de toutes les observations;Show the percentiles of all observations
+batab1;Espèces les plus abondantes;Most abundant species
+batab2;Plus grandes observations;Largest observations
+htd;Explorer les densités d'espèces sélectionnées;Explore densities of selected species
+htd2;Méthode utilisée pour estimer les densités;Method for estimating densities
+tdi;Ces estimations de densités représentent le pourcentage d'individus dont le domaine vital touche ou est partiellement inclus dans chacune des cellules de la grille. Les domaines vitaux ont été délimités avec la méthode des kernels. Tous les domaines vitaux ont été estimés en utilisant toutes les localisations récoltées pendant la période de suivi de chaque espèces. Ces cartes procurent un estimé très approximatif du pourcentage de la population utilisant les différentes zones du fleuve et du golf du St-Laurent.;These density estimates represent the proportion of individuals for which part of their home range is included in a given cell. Home ranges have been estimated using the kernel method. Each home range was estimated using all locations recorded throughout the study period of each species. These maps thus represent a rough estimate of the percentage of the population using a given area.
+tdtab1;Fous de Bassans;Northern Gannets
+tdtab2;Petits Pingouins;Razorbills
+tdtab3;Plongeon catmarin;Red-throated Loons
+td1i;90 individus suivis du 4 juillet au 19 août de 2012 à 2014.;90 individuals followed between July 4 and August 19 from 2012 to 2014
+td2i;19 individus des colonies de l'île Bicquette et de l'île Pellerin suivis entre le 28 mai et le 9 juillet 2015.;19 individuals followed from the Bicquette and Pellerin colonies between May 28 and July 9, 2015
+td3i;47 individus suivis entre 2012 et 2015;47 individuals followed from between 2012 and 2015
+tdsr;Afficher la région sélectionnée;Show the selected area
+tdco;Opacité des cellules;Cell opacity
+tdper;% des oiseaux utilisant la zone;% of birds using the area
+hsc;Tous les calendriers sont basés sur les données ÉPOQ dans la zone entourant la région d'intérêt;All calendars are based on the EPOQ data within the chosen buffer
+ob;Classer par;Order by
+ob1;alphabétique;Alphabetically
+ob2;taxonomique;Taxonomically
+ob3;abondance maximale;Maximum abundance
+ct;Type de calendrier;Calendar type
+ct1;à l'échelle;Unscaled
+ct2;rapporté à 100%;Scaled to 100%
+sctab1;Calendrier général;General calendar
+sctab2;Calendrier spécifique;Detailed species calendar
+sctab2ss;Sélectionner l'espèce;Select species
+hd;Explorer les données pour la région sélectionnée;Explore the data for the selected area
+dtab1;Observations d'oiseaux;Bird observations
+dtab2;Oiseaux en péril;Birds at risk
+dtab3;Terres fédérales;Federal lands
+dtab4;Milieux humides;Wetlands
+dtab5;Colonies d'oiseaux;Breeding colonies
+dtab6;Habitats essentiels;Critical habitats
+dtab7;Espèces en péril;Species at risk
+resetbutt;Réinitialiser;Reset table
+downbutt;Télécharger les données;Download data
+downdat;En tant que:;Download data as:
+downdat1;csv;csv
+downdat2;Fichier de forme zippé;zipped shapefile
+hcr1;Sélectionner les sections et les figures à inclure;Choose sections and figures to include
+hcr2;Sélectionner les détails des sections, des figures et des tableaux;Choose the details of sections, figures and tables.
+crtab1;Notification d'événements significatifs pour la faune;Significant Wildlife Event Notification
+crtab2;Sections du rapport;Report Sections
+crtab3;Exemple de rapport;Report Example
+hcrtab1;Notification d'événement significatif pour la faune;Significant Wildlife Event Notification
+hcrtab2;Ajouter du texte au début de chaque section du rapport;Add text at the beginning of each section of the report.
+foldbutt;Sélectionner un dossier où mettre le rapport et les images;Select a folder for the report and/or images
+rf;Format du rapport;Report format
+rf1;PDF;PDF
+rf2;Word;Word
+rf3;Markdown/HTML;Markdown/HTML
+si;Quelles sections inclure:;Which sections to include:
+si1;Notification d'événement significatif pour la faune;Significant Wildlife Event Notification
+si2;Localisation;Location
+si3;Oiseaux migrateurs;Migratory bird abundance
+si4;Colonies d'oiseaux;Breeding colonies
+si5;Calendrier saisonnier;Seasonal calendar
+si6;Espèces d'oiseaux en péril;Bird species at risk
+si7;Autres espèces en péril;Other species at risk
+si8;Habitats essentiels;Critical habitats
+si9;Terres fédérales;Federal lands
+si10;Milieux humides;Wetlands
+pi;Quels graphiques inclurent?;Which plots to include:
+pi1;Carte de la région sélectionnée;Map of the selected area
+pi2;Espèces les plus abondantes;Most abundant species
+pi3;Mentions les plus grandes;Largest observations
+pi4;Calendrier saisonnier;Seasonal calendar
+norecords;Nb de mentions à inclure parmi le tableau des mentions les plus abondantes;No. of records to include for the table of largest observations:
+nospecies;Nb d'espèces à inclure dans le calendrier saisonnier;No. of species to include in the seasonal calendar:
+sardetails;Inclure l'information détaillée sur les espèces en péril?;Include detailed information for species at risk?
+sar;Sélectionnez les espèces d'oiseaux en péril à inclure;Select species of birds at risk to include
+sarph;Toutes les espèces seront incluses par défaut;By default, all species will be included
+pngplots;Produire des images png à partir des graphiques;Produce png images from plots
+name;Rapport généré par:;Report generated by:
+name2;Inscrire votre nom;Write your name
+crbutt;Créer le rapport;Create report
+rap_loc;Emplacement du rapport;Report location
+temp0;Cette section est optionnelle et permet d'inclure du texte dans le rapport avant le gabarit de notification. La syntax markdown peut être utilisée pour formatter le texte.;This section is optional and is used to include custom text in the report before the notofication template section. Markdown syntax can be used to format the output.
+htemp;Notification d'événement significatif pour la faune;Significant Wildlife Event Notification
+temp1;A) Titre de l'avis et type d'événement;A) Title of Advisory and Event Type (e.g die-off of ducks in Lake Erie)
+temp2;B) Version de l'avis;B) Version (of Advisory):
+temp3;C) Incident;C) Incident:
+temp4;D) Détails de l'incident;D) Details of incident: / Détails de l'incident:
+temp5;E) Évaluation initiale des impacts et risques encourus par la faune;E) Initial Assessment of impacts and risk to wildlife:
+temp6;F) Mesures prises / planifiées;F) Actions underway / planned: / Mesures prises/planifiées:
+temp7;Contacts:;Contacts:
+temp8;Émis par:;Issued by:
+tempi;Inclure les éléments suivants:;Include the following:
+temp1i;Donner un titre à l'événement:;Give a title to the event
+temp2i;Date et heure;"Date-time: Month xx, 201x; xxxxh timezone"
+temp3i;-Date et heure: - Endroit: - Source d'information;" - Date and time: / Date et heure : Date and time of the incident (ensure the correct time zone is noted);
+ - Location : Endroit : Geographic location or approximate location with nearby landmarks e.g. lakes, Towns etc.
+ - Source of information: / Source d’information: Who was the source of the information (title and organization)?"
+temp4i;- Où, Quand, Comment: l'urgence, le lieu et comment l'urgence s'est déroulée. - l'importance de l'incident -Espèces impliquées et espèces en périls;"WHEN, WHERE, HOW: The emergency, where it happened and how it happened;
+- The magnitude of the event (e.g., \""minimum 500 birds killed by suspected disease\"");
+- Identify species and whether species at risk involved."
+temp5i;- Indiquer les impacts potentiels ou les risques aux espèces et aux habitats - Indiquer s'il y a des maladies pouvant affecter la santé humaine ou les animaux domestiques - Indiquer s'il y a déjà eu d'autres incidents dans la région; - State potential impacts and risks to wildlife and their habitats - State whether there are diseases that may threaten animal or human health - State whether there were other incidents in the area
+temp6i;Dresser la liste en ordre chronologique inverse: - liste des agences impliquées et de leurs actions - rôle de Environnement Canada - personnes de EC impliquées et/ou présentes sur les lieux - ;"List in reverse chronological order with Date/time as appropriate
+- Identify supporting or other lead agencies and their actions
+- Identify EC’s role – lead or provision of technical support
+- Identify if EC personnel are on-scene or monitoring the situation
+- Identify supporting or other lead agencies and their actions."
+temp7i;Service canadien de la faune - Région - Coordonateur aux urgences du SCF - Nom - Téléphone - Cellulaire - Courriel;"Canadian Wildlife Service – Region
+- CWS wildlife response coordinator
+- Name
+- Tel
+- Cell
+- Email"
+temp8i;Directeur régional du SCF - Nom- Téléphone - Cellulaire - Courriel;"Regional Director, CWS
+- Name
+- Tel
+- Cell
+- Email"
+rs0;Cette section est optionnelle et est utilisée pour inclure du texte au début du rapport et avant chaque section. La syntasque Markdown peut être utilisée pour formatter le texte.;This section is optional and is used to include custom text at the beginning of the report before each section. Markdown syntax can be used to format the output.
+rs00;Cette section est optionnelle et est utilisée pour inclure du texte à la fin du rapport. La syntazte Markdown peut être utilisée pour formatter le texte.;This section is optional too and is used to include custom text at the end of the report. Markdown syntax can be used to format the output.
+waitm1;Chargement de la carte…;Loading map…
+waitm2;Chargement des municipalités…;Loading municipalities
+waitm3;Chargement des localisations ÉPOQ…;Loading EPOQ locations…
+waitm4;Création du rapport…;Report being created…
+waitm5;Création du calendrier…;Calendar being created…
+waitm6;Exécution de la requête…;Query being processed…
+waitm7;Affichage de la sélection…;Data being mapped…
+waitm8;Sélectionnez un dossier;Choose a folder
+barplot1i;Espèces les plus abondantes;Most abundant species
+barplot1ii;Ce graphique montre le nombre de mentions pour chaque espèces/groupes dépassant la taille de groupe choisie. Optionnellement, il montre également sur l'axe de droite toute les observations et les nombres d'oiseaux observées. Les points en gris sont des mentions dont le nombre d'individus est inférieur au seuil choisi et les points en rouges sont supérieurs ou égaux.;This graph shows the number of records for each species/groups with a number of individuals over the selected value. Optionally, it also shows all observations and the number of birds in each record on the right axe. Gray dots represent a number of birds below the selected value and red dots represent a number equal or superior to the selected value.
+barplot2i;Mentions avec les plus grands nombres d'individus;Records with the largest number of birds
+barplot2ii;Ce graphique montre en ordre les mentions avec les plus grands nombres d'individus;This graph shows records with the greatest number of birds.
+calendari;Calendrier ÉPOQ;EPOQ calendar
+calendarii;Ce calendrier est basé sur la proportion mensuelle de feuillet ÉPOQ contenant une mention de l'espèce donnée (constance) dans la zone autour de la région d'intérêt. Par défaut, le mois où la constance d'une espèce donnée est la plus élevée est rapportée à 100% afin de faciliter la visualisation des espèces pour lesquelles les constances sont généralement faibles. Lorsqu'il n'y a pas de données ÉPOQ autour de la région d'intérêt, par défaut, toutes les données ÉPOQ sont utilisées.;This calendar is based on the monthly percentage of EPOQ files containing the species within the zone around the selected area. By default, the month where a species is the most abundant is scaled to 100% to facilitate the visualization monthly abundance of species with low occurence rates. When no EPOQ data is available around the selected area within the buffer specified, all EPOQ data is used.
+graph3i;Données d'abondance mensuelle détaillée;Detailed Monthly Abundance Data
+graph3ii;Ce calendrier montre l'ensemble des mentions ÉPOQ et le nombre d'individus dans la zone autour de la région d'intérêt pour l'espèce sélectionnée.;This calendar shows all EPOQ records for the selected species within the zone around the selected area.
+p1axe11;Nombre de mentions avec >;No. of records with >
+p1axe12;individus;individuals
+p1axe21;Nb d'individus;No. of individuals
+p1leg1;Plus grandes observations;Largest observations
+p1leg2;Observations;Observations
+p1leg3;individus;individuals
+p2axe1;Rang de l'observation;Rank of the observation
+p2axe2;Nb d'individus;No. of individuals
+caxe1;Nb de feuillets;No. of files
+caxe2;Nb de mentions;No. of records
+cleg1;Espèce observée dans la région sélectionnée;Species observed in the selected zone
+cleg2;Espèce non observée dans la région sélectionnée;Species not observed in the selected zone
+cleg3;Mois sélectionné;Month selected
+cleg4;Mois non sélectionné;Month not selected
+cleg5;Aucune donnée pour le mois;No data for the month
+p3axe;Nb d'individus;No. of individuals
+p3leg;Observations;Observations
+mois1;jan;jan
+mois2;fév;feb
+mois3;mar;mar
+mois4;avr;apr
+mois5;mai;may
+mois6;jun;jun
+mois7;jul;jul
+mois8;aoû;aug
+mois9;sep;sep
+mois10;oct;oct
+mois11;nov;nov
+mois12;déc;dec
+titrerap;Rapport d'urgences;Emergency Report
+genrap1;Généré le;Produced on
+genrap2;Par;By
+fig;Figure ;Figure 
+fig1;Localisation de la zone à l'étude.;Location of the study area.
+fig2;Nombre de mentions par groupes/espèces contenant plus de ;Number of records by group/species with more than 
+fig21; individus et nombres d'individus contenus dans chaque mention.; individuals and number of individuals in each record.
+fig3;Mentions contenant les plus grands nombres d'individus et provenance des données.;Records containing the largest number of individuals and source of data.
+fig4;Localisations des ;Location of the 
+fig41; mentions d'oiseaux migrateurs contenant les plus grands nombres d'individus. Les localisations sont approximatives en raison de l'imprécision des coordonnées géographiques. Les observations (points bleus) ont été dispersés autour de leur coordonnées originales (nombres rouges) afin de faciliter la visualisation. Voir le tableau plus bas pour connaître l'identifiant du site (ID_Site) et de l'observation (ID_Obs).;migratory birds records containing the largest number of individuals. Locations are approximate due to the potentially inaccurate geographic coordinates. Observations (blue dots) have been spreaded around their original coordinates (red numbers) to faciliate visualization. Refer to the tables below to get the site (ID_Site) and the observation ID (ID_Obs).
+fig5;Localisations des colonies d'oiseaux.;Location of bird colonies.
+fig6;Calendrier de présence saisonnière des ;Seasonnal calendar for the 
+fig61; espèces avec les plus grandes mentions. Les valeurs sont des pourcentages basés sur l'occurrence dans les données EPOQ pour la région environnante de la zone à l'étude.; species with the largest observations. Values are percentages based on the occurrence in EPOQ files within the zone around the study area.
+fig7;Localisation des ;Location of the 
+fig71; mentions d'espèces en péril sélectionnées. Les localisations sont potentiellement approximatives en raison de l'imprécision des coordonnées géographiques. Les nombres indiquent les différents sites se rapportant au tableau plus bas (Sites).; records of species at risk selected. Locations are approximate due to potentially inaccurate geographic coordinates. Numbers refer to the sites given in the table below (Sites).
+fig8;Localisation des terres fédérales dans la zone d'étude. Voir le tableau plus bas pour l'identifiant des sites (ID_Site).;Location of federal lands within the study zone. See the table below for the site Ids (ID_Site).
+fig9;Localisation et type de milieux humides dans la zone d'étude.;Location and type of wetlands within the study zone.
+fig10;Localisation des habitats essentiels. Voir le tableau plus bas pour l'identifiant des sites (ID_Carte).;Location of critical habitats. See the table below for the site Ids (ID_Carte).
+fig11;Localisation des occurrences d'espèces en péril sur des terres fédérales provenant des données du CDPNQ. Voir le tableau plus bas pour l'identifiant des sites (ID_Carte).;Location of records of species at risk on federal lands from the CDPNQ database . See the table below for the site Ids (ID_Carte).
+tab;Tableau ;Table 
+tab1;Détails des ;Details of the 
+tab11; mentions d'oiseaux migrateurs avec les plus grands nombres d'individus. La première colonne du tableau donne l'identifiant auquel est associé la localisation dans la carte précédente.; records of migratory birds with the largest numbers of individuals. The first columns are the ID of the site (ID_Site) and the observation (ID_Obs) used in the previous figure.
+tab2;Liste des colonies d'oiseaux, des espèces et des années d'activités les plus récentes pour chaque colonie présente dans la zone.;List of breeding bird colonies, species and most recent years of activities of each colony located in the selected area.
+tab3;Nombre de sites pour chaque espèce en péril sélectionnée et observée dans la zone à l'étude;Number of sites for each species at risk selected and observed in the study zone.
+tab4;Détails des ;Details of the 
+tab41; mentions d'espèces en péril.; records of species at risk.
+tab5;Liste des terres fédérales présentes dans la zone d'étude.;List of federal lands found in the study zone
+tab6;Liste des habitats essentiels présent dans la zone d'étude.;List of critical habitats found within the study zone.
+tab7;Liste et localisations des espèces en péril présentes sur des terres fédérales provenant des données du CDPNQ.;List and locations of species at risk on federal lands within the study site. Data from the CDPNQ.
+fileBO;oiseaux_obs;bird_obs
+fileSAR;especes_peril;species_at_risk
+bdall;Toutes les données;All databases
+bd_epoq;ÉPOQ;EPOQ
+bdi_epoq;ÉPOQ est une base de données gerée par le RQO (Regroupement Québec Oiseaux). Cette base contient plus de 6 millions d'observations faites par les observateurs et les observatrices d'oiseaux au cours de leurs excursions de tous les jours au Québec. Les données urilisées ici n'incluent que celles depuis le 1er janvier 1990 et ne contiennent uniquement que les espèces aquatiques et celles pouvant être touchées par des urgences environnementales de type déversement. Voir aussi http://www.oiseauxqc.org/epoq.jsp;ÉPOQ is a database managed by RQO (Regroupement Québec Oiseaux). EPOQ contains over 6 million observations from bird observers during their daily excursions in Quebec. The EPOQ data included are only those from 1990 and up, and from aquatic species or others that may potentially be impacted by a coastal oil spill. voir aussi http://www.oiseauxqc.org/epoq.jsp
+bdc_epoq;Gilles Falardeau;Gilles Falardeau
+bd_sospop;SOSpop;SOSpop
+bdi_sospop;Données d'espèces d'oiseaux en péril gérées par le RQO?;Data on species of birds at risk.
+bdc_sospop;Josée Tardif;Josée Tardif
+bd_macreuses;Macreuses;Scoters
+bdi_macreuses;Données d'inventaires aériens de macreuses et autres canards de mer durant la mue, ou en migration dans le système du Saint-Laurent.;Data from aerial surveys of scoters and other sea ducks during their moult, or migrations over the St. Lawrence.
+bdc_macreuses;François Bolduc;François Bolduc
+bd_canards_mer;Canards de mer;Seaducks
+bdi_canards_mer;Collection de données ponctuelles passées sur les canards de mer.;Collection of past ponctual sea duck observations.
+bdc_canards_mer;Christine Lepage;Christine Lepage
+bd_garrots_hiver;Garrots d'hiver;Winter Goldeneyes
+bdi_garrots_hiver;Données d'inventaires aériens hivernaux triennaux depuis 1999 du Garrot d’Islande et des autres espèces le long des côtes de l’estuaire et du golfe Saint-Laurent.;Data from the triennal winter aerial surveys of Barrow's Goldeneyes and other species over the St. Lawrence estuary and gulf since 1999.
+bdc_garrots_hiver;François Bolduc;François Bolduc
+bd_eiders_hiver;Eiders hiver;Winter Eiders
+bdi_eiders_hiver;Données de l'inventaire triennal des Eiders à duvet (S. mollissima borealis) hivernant dans l'est du Canada réalisé depuis 2003.;Data from the triennal winter common eider survey (S. mollissima borealis) in eastern Canada since 2003. 
+bdc_eiders_hiver;Christine Lepage;Christine Lepage
+bd_sauvagine;Sauvagine;Waterfowl
+bdi_sauvagine;Données d'inventaire côtiers de la sauvagine le long de l'estuaire et du golfe Saint-Laurent entre 19.. Et 19..;Data from aerial waterfowl surveys along te St. Lawrence estuary and gulf between 19.. and 19..
+bdc_sauvagine;Daniel Bordage?;Daniel Bordage?
+bd_oies;Oies;Geese
+bdi_oies;Données d'inventaires aériens annuels printaniers de la grande oie des neiges au Québec depuis…;Data from spring annual aeiral surveys of greater snow geese over Quebec since…
+bdc_oies;Josée Lefebvre;Josée Lefebvre
+bd_sauvfleuve;SAUVFLEUVE;SAUVFLEUVE
+bdi_sauvfleuve;Données d'inventaires aériens de la sauvagine à l'automne 2015 le long du fleuve Saint-Laurent.;Data from waterfowl aerial surveys in Fall 2015 along the St. Lawrence River. -François Bolduc
+bdc_sauvfleuve; François Bolduc; François Bolduc
+bd_sriv;SRIV;SRIV
+bdi_sriv;Données d'inventaire de la sauvagine au printemps dans des transects localisés le long du Saint-Laurent de 2004 à 2010.;Data from waterfowl aerial surveys during Spring in transects located along the St. Lawrence between from 2004 to 2010.
+bdc_sriv;Christine Lepage;Christine Lepage
+bd_biomq;BIOMQ;BIOMQ
+bdi_biomq;Données de suivis des couples nicheurs dans les colonies d'oiseaux marins dans l'estuaire et le golfe Saint-Laurent depuis 19..;Data from censuses of nesting pairs in seabird colonies in the St. Lawrence estuary and gulf since 19..
+bdc_biomq;Jean-François Rail;Jean-François Rail
+bd_ecsas;ECSAS;ECSAS
+bdi_ecsas;Données d'inventaires d'oiseaux marins réalisés en mer sur des bateaux ou des avions dans l'est du Canada depuis 2006.;Data from seabird at-sea surveys from ships and planes in eastern Canada.
+bdc_ecsas; Carina Gjerdrum / François Bolduc; Carina Gjerdrum / François Bolduc
+bd_lim1;LIMICOLES_IDLM;LIMICOLES_IDLM
+bdi_lim1;Données d'inventaire de limicoles aux Îles-de-la-Madeleine de 2007 à 2014.;Shorebird survey data in the Magdalen Islands from 2007 to 2014.
+bdc_lim1;François Shaffer;François Shaffer
+bd_lim2;REKN_BBPL_2013_YT;REKN_BBPL_2013_YT
+bdi_lim2;Données d'inventaire de Bécasseaux maubèches et de Pluviers argentés au bas St-Laurent en 2013.;Red Knot and Black-bellied Plover survey data along the south shore of the St-Lawrence in 2013.
+bdc_lim2;François Shaffer;François Shaffer
+bd_habitatsessentiels;Habitats essentiels;Critical Habitats
+bdi_habitatsessentiels;Habitats essentiels des espèces en péril sur le territoire québécois ayant une partie se trouvant à 3 km ou moins des rives du fleuve et du golfe du St-Laurent et de ses principaux affluents (rivière des Outaouais, Sauguenay, Lac St-Jean et Baie-des-Chaleurs).;Species at risks critical habitats in Quebec within 3 km of the St. Lawrence system and its primary tributaries (rivière des Outaouais, Sauguenay, Lac St-Jean et Baie-des-Chaleurs).
+bdc_habitatsessentiels;Charles Clavet;Charles Clavet
+bd_terresfed;Terres fédérales;Federal Lands
+bdi_terresfed;Terres fédérales et RBIF localisées au Québec. Extraction datant de mars 2016.;Federal lands and DFRP in Québec. Extracted in March 2016.
+bdc_terresfed;Matthieu Allard;Matthieu Allard
+bd_terreshumides;Milieux humides;Wetlands
+bdi_terreshumides;Milieux humides à moins de 3 km des rives du fleuve et du golfe du St-Laurent et de ses principaux affluents (rivière des Outaouais, Sauguenay, Lac St-Jean et Baie-des-Chaleurs). Ce fichier a été extrait du GKMI le 1er mars 2016.;Wetlands within 3 km of the St. Lawrence system coast and its primary tributaries (rivière des Outaouais, Sauguenay, Lac St-Jean and Baie-des-Chaleurs). This was extracted from GKMI on 1st March 2016.
+bdc_terreshumides;Matthieu Allard;Matthieu Allard
+bd_CDPNQ;CDPNQ;CDPNQ
+bdi_CDPNQ;Extractions du CDPNQ pour les entités touchant aux terres fédérales;CDPNG extractions for federal lands
+bdc_CDPNQ;Josée Tardif;Josée Tardif
+cclist;Envoyer le rapport à:;Send report to: 
+envoicc1;Marie-Josée Couture, marie-josee.couture@canada.ca;Marie-Josée Couture, marie-josee.couture@canada.ca
+envoicc2;Marie-France Dalcourt, marie-france.dalcourt@canada.ca;Marie-France Dalcourt, marie-france.dalcourt@canada.ca
+envoicc3;Luc Bélanger, luc.belanger@canada.ca;Luc Bélanger, luc.belanger@canada.ca
+envoicc4;Cédric Paître, cedric.paitre@canada.ca;Cédric Paître, cedric.paitre@canada.ca
+envoicc5;Daniel Bordage, daniel.bordage@canada.ca;Daniel Bordage, daniel.bordage@canada.ca
+envoicc6;Stéphane Légaré, stephane.legare@canada.ca;Stéphane Légaré, stephane.legare@canada.ca
+envoicc7;Marilou Verge, marielou.verge@canada.ca;Marilou Verge, marielou.verge@canada.ca
+envoicc8;Josée Deguise, josee.deguise@canada.ca;Josée Deguise, josee.deguise@canada.ca
+envoicc9;Karine Picard, karine.picard@canada.ca;Karine Picard, karine.picard@canada.ca
+envoicc10;Bruno Rodrigue (DALF), bruno.rodrigue@canada.ca;Bruno Rodrigue (DALF), bruno.rodrigue@canada.ca
+envoicc11;Luc Tittley (comm), luc.tittley@canada.ca;Luc Tittley (comm), luc.tittley@canada.ca
+envoicc12;Holly Foerter, holly.foerter@canada.ca;Holly Foerter, holly.foerter@canada.ca
+coordonateur1;François Bolduc, francois.bolduc@canada.ca;François Bolduc, francois.bolduc@canada.ca
+coordonateur2;Christine Lepage, christine.lepage@canada.ca;Christine Lepage, christine.lepage@canada.ca
+coordonateur3;Luc Robillard, luc.robillard2@canada.ca;Luc Robillard, luc.robillard2@canada.ca
+coordonateur4;Jean-François Rail, jean-francois.rail@canada.ca;Jean-François Rail, jean-francois.rail@canada.ca
+coordonateur5;Mark Dionne, mark.dionne@canada.ca;Mark Dionne, mark.dionne@canada.ca
+pa_re1;Paramètres de la requête et résumé;Query parameters and summary
+pa_re2;Base de données sélectionnées pour les observations d'oiseaux migrateurs;Databases selected for records of migratory bird observations
+pa_re3;Mois sélectionnés;Selected months
+pa_re4;Année minimale sélectionnée pour les observations d'oiseaux migrateurs;Minimal year for bird observation data
+pa_re5;Nombre de mentions d'oiseaux migrateurs;Number of records
+pa_re6;Nombre de colonies d'oiseaux migrateurs;Number of breeding bird colonies
